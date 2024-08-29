@@ -1,0 +1,42 @@
+.artSection{
+    text-decoration: underline;
+    color: #dfebd0;
+    
+}
+.container-artSection{
+    border: none;
+    padding: 5px;
+    
+}
+.card-holder{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.container-card{
+    text-align: center;
+    display: grid;
+    border: 3px solid  #c29148;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #e9da88;
+    box-shadow: 5px 4px 10px #000000 ;
+    transition: 0.45s;
+    width: fit-content;
+}
+.container-card:hover{
+    transform: translateY(-6px);
+}
+span{
+    font-weight: bold;
+    padding: 4px;
+    text-decoration: underline;
+    color:#813d2bee
+}
+
+img{
+    margin: auto;
+}
